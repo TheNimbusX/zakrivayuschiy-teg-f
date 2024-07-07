@@ -1,1 +1,47 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --bg-color: #fff;
+  --accent-color: #000;
+
+  --main-font-weight: 400;
+  --main-font-bold-weight: 700;
+
+  --btn-hover-color: #fff;
+
+  --grad-line1: #d3d3d3;
+  --grad-line2: transparent;
+  --grad-smooth1: #e7e7e7;
+  --grad-smooth2: #1a1a1a;
+  --grad-left-to-right: repeating-linear-gradient(
+    to right,
+    var(--grad-line2) 0,
+    var(--grad-line1) 1px,
+    var(--grad-line1) 2px,
+    var(--grad-line2) 3px,
+    var(--grad-line2) 4px
+  );
+  --grad-top-to-bottom: repeating-linear-gradient(
+    to bottom,
+    var(--grad-line2) 0,
+    var(--grad-line1) 1px,
+    var(--grad-line1) 2px,
+    var(--grad-line2) 3px,
+    var(--grad-line2) 4px
+  );
+  --grad-bg: linear-gradient(
+    to bottom,
+    var(--grad-smooth1) 0.01%,
+    var(--grad-smooth2)
+  );
+
+  --core-color: #000;
+  --core-active-color: #f00;
+  --main-body-color: #000;
+  --main-active-body-color: #f00;
+  --contour-color: #000;
+  --contour-active-color: #f00;
+  --sparks-fill-color: #f00;
+  --sparks-fill-color-transparent: rgb(255 0 0 / 0%);
+  --core-color-transparent: rgb(0 0 0 / 0%);
+  --main-body-color-transparent: rgb(0 0 0 / 0%);
+}

@@ -1,14 +1,42 @@
-/* Опишите в этом файле все keyframes для проекта и стили анимаций иконки Like.
+@keyframes moving-arrow {
+  0% {
+    inset-inline-start: -20px;
+  }
 
-Будьте внимательны! Для корректной работы скриптов на этом сайте нужно, чтобы в HTML некоторые классы были названы особым образом:
-✦ theme-dark — класс тёмной темы
-✦ theme-light — класс светлой темы
-✦ like-icon — для svg-иконки анимированного сердца
-✦ card__like-button — для кнопки Like рядом с иконкой
-✦ card__icon-button — для кнопки, оборачивающей иконку
-✦ card__icon-button — для кнопки, оборачивающей иконку
-✦ is-liked — для обозначения состояния лайкнутой иконки в виде сердца
-✦ button__text — для обозначения текстового элемента внутри кнопки
+  100% {
+    inset-inline-start: -16px;
+  }
+}
 
-Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
-*/
+@keyframes core-color {
+  100% {
+    fill: var(--core-active-color);
+  }
+}
+
+@keyframes main-body-color {
+  100% {
+    fill: var(--main-active-body-color);
+  }
+}
+
+@keyframes contour-color {
+  100% {
+    fill: var(--contour-active-color);
+  }
+}
+
+@keyframes icon-transform {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes sparks-color {
+  100% {
+    fill: var(--sparks-fill-color);
+  }
+}
