@@ -367,6 +367,16 @@
   }
 }
 
+@supports (
+  (text-stroke: 1px var(--bg-color)) or
+    (-webkit-text-stroke: 1px var(--bg-color))
+) {
+  .card__image-text {
+    text-shadow: none;
+    -webkit-text-stroke: 1px var(--bg-color);
+  }
+}
+
 /* Анимации, UI KIT */
 
 .theme-menu__button:hover {
