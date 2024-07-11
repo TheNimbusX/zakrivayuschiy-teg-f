@@ -1,4 +1,3 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
   --bg-color: #fff;
   --accent-color: #000;
@@ -7,6 +6,8 @@
   --main-font-bold-weight: 700;
 
   --btn-hover-color: #fff;
+
+  --header-hover-color: rgb(0 0 0 / 60%);
 
   --grad-line1: #d3d3d3;
   --grad-line2: transparent;
