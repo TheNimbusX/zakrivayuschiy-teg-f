@@ -42,45 +42,45 @@
 }
 
 @media (prefers-color-scheme: theme-dark) {
- :root {
-  --bg-color: #000;
-  --accent-color: #00cc14;
+  :root {
+    --bg-color: #000;
+    --accent-color: #00cc14;
 
-  --main-font-weight: 465;
-  --main-font-bold-weight: 785;
+    --main-font-weight: 465;
+    --main-font-bold-weight: 785;
 
-  --btn-hover-color: #00cc14;
-  --header-hover-color: rgb(0 204 20 / 60%);
+    --btn-hover-color: #00cc14;
+    --header-hover-color: rgb(0 204 20 / 60%);
 
-  --grad-line1: #000;
-  --grad-line2: transparent;
-  --grad-smooth1: #007f0c;
-  --grad-smooth2: #004306;
-  --grad-left-to-right: repeating-linear-gradient(
-    to right,
-    var(--grad-line2) 0,
-    var(--grad-line1) 1px,
-    var(--grad-line1) 2px,
-    var(--grad-line2) 3px,
-    var(--grad-line2) 4px
-  );
-  --grad-top-to-bottom: repeating-linear-gradient(
-    to bottom,
-    var(--grad-line2) 0,
-    var(--grad-line1) 1px,
-    var(--grad-line1) 2px,
-    var(--grad-line2) 3px,
-    var(--grad-line2) 4px
-  );
-  --grad-bg: linear-gradient(
-    to bottom,
-    var(--grad-smooth1),
-    var(--grad-smooth2)
-  );
+    --grad-line1: #000;
+    --grad-line2: transparent;
+    --grad-smooth1: #007f0c;
+    --grad-smooth2: #004306;
+    --grad-left-to-right: repeating-linear-gradient(
+      to right,
+      var(--grad-line2) 0,
+      var(--grad-line1) 1px,
+      var(--grad-line1) 2px,
+      var(--grad-line2) 3px,
+      var(--grad-line2) 4px
+    );
+    --grad-top-to-bottom: repeating-linear-gradient(
+      to bottom,
+      var(--grad-line2) 0,
+      var(--grad-line1) 1px,
+      var(--grad-line1) 2px,
+      var(--grad-line2) 3px,
+      var(--grad-line2) 4px
+    );
+    --grad-bg: linear-gradient(
+      to bottom,
+      var(--grad-smooth1),
+      var(--grad-smooth2)
+    );
 
-  --core-color: rgb(0 204 20);
-  --main-body-color: rgb(0 204 20);
-  --contour-color: rgb(0 204 20);
-  --core-color-transparent: rgb(0 204 20 / 0%);
- }
+    --core-color: rgb(0 204 20);
+    --main-body-color: rgb(0 204 20);
+    --contour-color: rgb(0 204 20);
+    --core-color-transparent: rgb(0 204 20 / 0%);
+  }
 }
