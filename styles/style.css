@@ -228,6 +228,7 @@
   padding: 2px;
   outline: 2px solid transparent;
   background-color: transparent;
+  transition: 0.3s ease-in-out;
   height: 32px;
 }
 
@@ -324,7 +325,6 @@
 
   .card__paragraph {
     padding-top: 25px;
-    line-height: 21px;
     width: 90%;
   }
 
